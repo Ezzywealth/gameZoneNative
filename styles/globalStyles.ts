@@ -22,6 +22,11 @@ export const globalStyles = StyleSheet.create({
 		marginVertical: 6,
 		padding: 20,
 	},
+	cardEle: {
+		fontSize: 19,
+		fontFamily: 'jost-regular',
+		marginBottom: 5,
+	},
 });
 
 export const navStyles = StyleSheet.create({
@@ -42,3 +47,19 @@ export const navStyles = StyleSheet.create({
 		color: '#333',
 	},
 });
+
+export const images = {
+	ratings: {
+		'1': require('../assets/images/rating-1.png'),
+		'2': require('../assets/images/rating-2.png'),
+		'3': require('../assets/images/rating-3.png'),
+		'4': require('../assets/images/rating-4.png'),
+		'5': require('../assets/images/rating-5.png'),
+	},
+	imageContainer: {
+		flex: 1,
+		justifyContent: 'center',
+		alignItems: 'center',
+		marginTop: 20,
+	},
+};
