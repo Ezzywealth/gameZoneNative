@@ -48,6 +48,9 @@ export const globalStyles = StyleSheet.create({
 		textAlign: 'center',
 		color: '#333',
 	},
+	errorText: {
+		color: 'crimson',
+	},
 });
 
 export const navStyles = StyleSheet.create({
