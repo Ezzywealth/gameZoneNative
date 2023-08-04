@@ -27,6 +27,27 @@ export const globalStyles = StyleSheet.create({
 		fontFamily: 'jost-regular',
 		marginBottom: 5,
 	},
+	form: {
+		marginTop: 40,
+		width: '100%',
+		paddingHorizontal: 20,
+		flexDirection: 'column',
+		gap: 10,
+		alignItems: 'center',
+	},
+	input: {
+		width: '100%',
+		borderWidth: 1,
+		borderColor: '#ddd',
+		padding: 10,
+		borderStyle: 'solid',
+	},
+	formTitle: {
+		fontFamily: 'jost-bold',
+		fontSize: 22,
+		textAlign: 'center',
+		color: '#333',
+	},
 });
 
 export const navStyles = StyleSheet.create({
